@@ -4,9 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 function Cart() {
-  <Helmet>
-  <title>Shopping Cart | ArtiMart</title>
-</Helmet>
+  
   const [cartItems, setCartItems] = useState([]);
 
   useEffect(() => {

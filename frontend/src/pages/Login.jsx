@@ -4,9 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 function Login() {
-  <Helmet>
-  <title>Login | ArtiMart</title>
-</Helmet>
+  
   const navigate = useNavigate();
 
   const [email, setEmail] = useState("");

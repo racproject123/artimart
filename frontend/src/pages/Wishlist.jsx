@@ -3,9 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 function Wishlist() {
-  <Helmet>
-  <title>Wishlist | ArtiMart</title>
-</Helmet>
+ 
   const [wishlistItems, setWishlistItems] = useState([]);
 
   useEffect(() => {

@@ -5,12 +5,10 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Products from "./pages/Products";
 import ProductDetails from "./pages/ProductDetails";
-
 import Cart from "./pages/Cart";
 import Wishlist from "./pages/Wishlist";
 import Checkout from "./pages/Checkout";
 import OrderHistory from "./pages/OrderHistory";
-
 import SellerDashboard from "./pages/SellerDashboard";
 import AddProduct from "./pages/AddProduct";
 
@@ -25,12 +23,13 @@ function App() {
           element={<Home />}
         />
 
-        {/* Authentication */}
+        {/* Login */}
         <Route
           path="/login"
           element={<Login />}
         />
 
+        {/* Register */}
         <Route
           path="/register"
           element={<Register />}
@@ -42,6 +41,7 @@ function App() {
           element={<Products />}
         />
 
+        {/* Product Details */}
         <Route
           path="/product"
           element={<ProductDetails />}
@@ -65,7 +65,7 @@ function App() {
           element={<Checkout />}
         />
 
-        {/* Orders */}
+        {/* Order History */}
         <Route
           path="/orders"
           element={<OrderHistory />}

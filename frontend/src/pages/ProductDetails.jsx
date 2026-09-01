@@ -1,17 +1,9 @@
 import { useLocation } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import { Helmet } from "react-helmet";
 
 function ProductDetails() {
-  <Helmet>
-  <title>{name} | ArtiMart</title>
-
-  <meta
-    name="description"
-    content={description}
-  />
-</Helmet>
+ 
   const location = useLocation();
 
   const {

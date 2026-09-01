@@ -2,16 +2,9 @@ import { useState } from "react";
 import Navbar from "../components/Navbar";
 import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
-import { Helmet } from "react-helmet";
-function Products() {
-  <Helmet>
-  <title>Products | ArtiMart</title>
 
-  <meta
-    name="description"
-    content="Browse handmade products from artisans across India."
-  />
-</Helmet>
+function Products() {
+ 
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("All Categories");
 
